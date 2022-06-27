@@ -7,7 +7,7 @@ import { MainContainer} from '../../styles/MainStyles';
 
 export function Main(){
   return(
-    <MainContainer>
+    <MainContainer id="home">
             <section>
               <div>
                   <h2>Hello, I'm Gustavo Soares</h2>

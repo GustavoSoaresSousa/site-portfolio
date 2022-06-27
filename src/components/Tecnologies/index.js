@@ -3,7 +3,7 @@ import {TecnologiesContainer} from '../../styles/TecnologiesStyles'
 
 export function Tecnologies(){
   return(
-    <TecnologiesContainer>
+    <TecnologiesContainer id="tecnologias">
       <h1>Serviços</h1>
       <div>
         <section>

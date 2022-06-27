@@ -10,6 +10,8 @@ export const HeaderStyles = styled.header`
   width: 100%;
   height: 65px;
   padding: 20px 40px 20px 40px;
+  z-index: 100;
+  position: fixed;
 
   font-size: 1.2em;
 
@@ -24,11 +26,32 @@ export const HeaderStyles = styled.header`
       height: 100%;
     li {
       list-style-type: none;
-      transition: 0.5s;
-    }
-    li:hover{
+      
+
+      a{
+        text-decoration: none;
+        color: #fff;
+        transition: 0.5s;
+      }
+
+      a:hover{
       cursor: pointer;
       color: #738EFA;
     }
+    }
+
   }
+@media (max-width: 320px) {
+    padding-left: 5px;
+    width: 320px;
+    font-size: 0.8em;
+    ul {
+      width: 70%;
+
+      li { 
+        padding-right: 4px;
+      }
+    }
+}
+
 `

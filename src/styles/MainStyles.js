@@ -51,8 +51,16 @@ export const MainContainer = styled.main`
             border-image: linear-gradient(360deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
           }
         }
-
 }
+    @media (max-width: 320px){
+        width: 320px;
 
+        aside{
+          img{
+            height: 200px;
+            width: 150px;
+          }
+        }
+      }
 
 `

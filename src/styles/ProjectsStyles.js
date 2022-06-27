@@ -10,44 +10,53 @@ export const ProjectsContainer = styled.div`
       text-align: center;
     }
 
+  div{
+    display: grid;
+    grid-template-columns: 1fr  1fr 1fr;
+    justify-items: center;
+      section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
 
+        background-color: #244AE0;
+        border-radius: 12px;
 
-div{
-  display: grid;
-  justify-content: center;
-  grid-template-columns: 1fr  1fr 1fr;
-  section{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
+        height: 350px;
+        width: 400px;
 
-    background-color: #244AE0;
-    border-radius: 12px;
+        margin-top: 64px;
+        padding: 8px 4px 8px 4px;
 
-    height: 300px;
-    width: 350px;
+        img {
+          height: 250px;
+          width: 95%;
+          border-radius: 12px;
+        }
 
-    margin-top: 64px;
-    padding: 8px 4px 8px 4px;
+        a{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 16px;
+          border-radius: 8px;
+          border: 1px solid #1D2B61;
+          color: #fff;
+          width: 95%;
+          height: 32px;
 
-    img {
-      height: 200px;
-      width: 320px;
-      border-radius: 12px;
-    }
+          text-decoration: none;
+          cursor: pointer;
+          transition: .2s
+        }
 
-    a{
-      text-align: center;
-      border-radius: 8px;
-      border: 1px solid #1D2B61;
-      color: #fff;
-      width: 90%;
-
-      text-decoration: none;
-      cursor: pointer;
-    }
-  }
+        a:hover{
+          background: #738EFA;
+          color: #1D2B61;
+        }
+      }
 }
   
 `

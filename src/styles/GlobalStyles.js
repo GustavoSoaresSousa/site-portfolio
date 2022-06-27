@@ -7,6 +7,8 @@ const GlobalStyles = createGlobalStyle`
     margin: 0;
     font-family: 'Anek Malayalam', sans-serif;
   }
+
+
 `
 
 export default GlobalStyles

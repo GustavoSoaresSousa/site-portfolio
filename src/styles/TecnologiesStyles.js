@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const TecnologiesContainer = styled.div`
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -34,5 +34,17 @@ export const TecnologiesContainer = styled.div`
     width: 300px;
   }
 
+  }
+
+  @media (max-width: 320px){
+    padding-top: 120px;
+    max-height: 100%;
+    div {
+      flex-direction: column;
+
+      section{
+        margin-top: 32px;
+      }
+    }
   }
 `

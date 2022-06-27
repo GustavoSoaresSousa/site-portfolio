@@ -4,16 +4,18 @@ import { Main } from "../components/Main";
 import { About } from "../components/About";
 import {Tecnologies } from "../components/Tecnologies";
 import { Projects } from "../components/Projects";
+import { Footer } from "../components/Footer";
 
 
 export function Portfolio(){
   return (
     <>
       <Header />
-      <Main />
+       <Main />
       <About />
       < Tecnologies />
       <Projects />
+      {/*<Footer /> */}
     </>
   )
 }
