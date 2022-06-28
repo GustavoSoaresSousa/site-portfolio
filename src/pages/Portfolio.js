@@ -13,9 +13,9 @@ export function Portfolio(){
       <Header />
       <Main />
       <About />
-     < Tecnologies />
+      < Tecnologies />
       <Projects />
-     {/*   <Footer /> */}
+      <Footer /> 
     </>
   )
 }
