@@ -2,15 +2,8 @@ import React,{useState} from "react";
 import { FooterContainer } from "../../styles/FooterStyles";
 import emailjs from 'emailjs-com';
 
-const userMessage = {
-    assunto: '',
-    name: '',
-    email: '',
-    message: '',
-  }
-
 export function Footer(){
-  const [message, setMessage] = useState(userMessage);
+
 
   const publicKey = process.env.REACT_APP_PUBLIC_KEY;
   const templateID = process.env.REACT_APP_TEMPLATE_ID;
