@@ -43,7 +43,7 @@ export const HeaderStyles = styled.header`
   }
 @media (max-width: 320px) {
     padding-left: 5px;
-    width: 320px;
+    width: 100%;
     font-size: 0.8em;
     ul {
       width: 70%;
@@ -54,4 +54,82 @@ export const HeaderStyles = styled.header`
     }
 }
 
+@media (max-width: 375px){
+    padding-left: 20px;
+    width: 100%;
+    font-size: 0.9em;
+
+    justify-content: space-around;
+
+    h3{
+      margin-right: 8px;
+    }
+
+    ul{
+      width: 80%;
+    }
+
+    li{
+      padding-right: 8px;
+    }
+} 
+
+@media (max-width: 425px){
+    padding-left: 25px;
+    width: 100%;
+    font-size: 1em;
+
+    justify-content: space-around;
+
+    h3{
+      margin-right: 8px;
+    }
+
+    ul{
+      width: 80%;
+    }
+
+    li{
+      padding-right: 8px;
+    }
+}
+@media (max-width: 768px){
+    padding-left: 25px;
+    width: 100%;
+    font-size: 1em;
+
+    justify-content: space-between;
+
+    h3{
+      margin-right: 8px;
+    }
+
+    ul{
+      width: 60%;
+    }
+
+    li{
+      padding-right: 8px;
+    }
+}
+
+@media (max-width: 1024px){
+    padding-left: 25px;
+    width: 100%;
+    font-size: 1.3em;
+
+    justify-content: space-between;
+
+    h3{
+      margin-right: 8px;
+    }
+
+    ul{
+      width: 60%;
+    }
+
+    li{
+      padding-right: 8px;
+    }
+}
 `

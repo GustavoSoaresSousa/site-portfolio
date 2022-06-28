@@ -1,7 +1,8 @@
-import styled from "styled-components"
+import styled from "styled-components";
 
 export const AboutContainer = styled.div`
   min-height: 100vh;
+  width: 100%;
   background-color: #1D2B61;
   color: #fff;
   h1{

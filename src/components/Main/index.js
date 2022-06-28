@@ -11,11 +11,13 @@ export function Main(){
             <section>
               <div>
                   <h2>Hello, I'm Gustavo Soares</h2>
-                  <div className="resume">Desenvolvedor de Software</div>
+                  <div className="resume">
+                    Desenvolvedor de Software
+                    </div>
                   <section className="icons">
-                  <img src={iconGitHub} />
-                  <img src={iconLinkedin} />
-                  <img src={iconTikTok} />
+                  <a href="https://github.com/GustavoSoaresSousa" target="_blank"><img src={iconGitHub} /></a>
+                  <a href="https://www.linkedin.com/in/gustavosoaressousa/" target="_blank"><img src={iconLinkedin} /></a>
+                  <a href="https://www.tiktok.com/@gugudev" target="_blank"><img src={iconTikTok} /></a>
               </section>
               </div>
         </section>

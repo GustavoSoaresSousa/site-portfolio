@@ -2,6 +2,7 @@ import styled from "styled-components"
 
 export const TecnologiesContainer = styled.div`
   min-height: 100vh;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,7 +33,14 @@ export const TecnologiesContainer = styled.div`
 
     height: 200px;
     width: 300px;
+
+    transition: all 0.5s;
   }
+
+    section:hover{
+        width: 325px;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    }
 
   }
 
@@ -44,6 +52,52 @@ export const TecnologiesContainer = styled.div`
 
       section{
         margin-top: 32px;
+
+        height: 175px;
+        width: 250px;
+      }
+    }
+  }
+
+  @media (max-width: 375px){
+    div{
+      flex-direction: column;
+
+      section {
+        margin-top: 32px;
+      }
+    }
+  }
+
+  @media (max-width: 425px){
+    div{
+      flex-direction: column;
+
+      section {
+        margin-top: 32px;
+
+        height: 210px;
+        width: 290px;
+      }
+    }
+  }
+  @media (max-width: 768px){
+    div{
+      flex-direction: column;
+      section {
+        margin-top: 32px;
+
+        height: 230px;
+        width: 240px;
+      }
+    }
+  }
+
+  @media (max-width: 1024px){
+    div{
+      section{
+        height: 230px;
+        width: 240px;
       }
     }
   }

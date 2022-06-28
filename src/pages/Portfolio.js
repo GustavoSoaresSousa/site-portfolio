@@ -11,11 +11,11 @@ export function Portfolio(){
   return (
     <>
       <Header />
-       <Main />
+      <Main />
       <About />
-      < Tecnologies />
+     < Tecnologies />
       <Projects />
-      {/*<Footer /> */}
+     {/*   <Footer /> */}
     </>
   )
 }

@@ -4,6 +4,7 @@ export const MainContainer = styled.main`
   height: 100vh;
   background-color: #1D2B61;
   color: #fff;
+  width: 100%;
 
   display: flex;
   align-items: center;
@@ -57,10 +58,53 @@ export const MainContainer = styled.main`
 
         aside{
           img{
-            height: 200px;
-            width: 150px;
+            height: 150px;
+            width: 100px;
           }
         }
       }
 
+    @media (max-width: 375px){
+      width: 100%;
+
+      aside{
+          img{
+            height: 250px;
+            width: 200px;
+          }
+        }
+    }
+
+    @media (max-width: 425px){
+      width: 100%;
+
+        aside{
+            img{
+              height: 250px;
+              width: 200px;
+            }
+          }
+    }
+
+    @media (max-width: 768px){
+      width: 100%;
+
+        aside{
+            img{
+              height: 350px;
+              width: 300px;
+            }
+          }
+    }
+
+    @media (max-width: 1024px){
+      width: 100%;
+
+        aside{
+            img{
+              height: 400px;
+              width: 350px;
+            }
+          }
+    }
 `
