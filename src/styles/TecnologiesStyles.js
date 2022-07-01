@@ -85,7 +85,7 @@ export const TecnologiesContainer = styled.div`
     div{
       flex-direction: column;
       section {
-        margin-top: 32px;
+        margin-top: 28px;
 
         height: 230px;
         width: 240px;

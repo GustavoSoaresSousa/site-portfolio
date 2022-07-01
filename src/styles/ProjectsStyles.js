@@ -28,8 +28,8 @@ export const ProjectsContainer = styled.div`
         height: 350px;
         width: 400px;
 
-        margin-top: 64px;
-        padding: 8px 4px 8px 4px;
+        margin-top: 60px;
+        padding: 6px 2px 6px 2px;
 
         transition: all 0.5s;
 
@@ -37,6 +37,12 @@ export const ProjectsContainer = styled.div`
           height: 250px;
           width: 95%;
           border-radius: 12px;
+          transition: all 0.5s;
+        }
+
+        img:hover {
+          height: 300px;
+          width: 100%;
         }
 
         a{
@@ -68,7 +74,7 @@ export const ProjectsContainer = styled.div`
       }
 }
 
-@media (max-width: 320px){
+@media (min-width: 320px){
   div{
     grid-template-columns: 1fr;
 
@@ -77,14 +83,14 @@ export const ProjectsContainer = styled.div`
         width: 250px;
 
         img{
-          height: 200px;
+          height: 220px;
           width: 90%;
         }
     }
   }
 }
 
-@media (max-width: 375px){
+@media (min-width: 375px){
   div{
     grid-template-columns: 1fr;
 
@@ -94,18 +100,18 @@ export const ProjectsContainer = styled.div`
 
         img{
           height: 200px;
-          width: 90%;
+          width: 80%;
         }
     }
   }
 }
 
-@media (max-width: 425px){
+@media (min-width: 425px){
   div{
     grid-template-columns: 1fr;
 
     section {
-        height: 320px;
+        height: 310px;
         width: 380px;
 
         img{
@@ -116,13 +122,13 @@ export const ProjectsContainer = styled.div`
   }
 }
 
-@media (max-width: 768px){
+@media (min-width: 768px){
   div{
     grid-template-columns: 1fr;
 
     section {
-        height: 320px;
-        width: 380px;
+          height: 350px;
+          width: 440px;
 
         img{
           height: 230px;
@@ -132,19 +138,9 @@ export const ProjectsContainer = styled.div`
   }
 }
 
-@media (max-width: 1024px){
+@media (min-width: 1024px){
   div{
-    grid-template-columns: 1fr;
-
-    section {
-        height: 320px;
-        width: 380px;
-
-        img{
-          height: 230px;
-          width: 90%;
-        }
-    }
+    grid-template-columns: 1fr 1fr;
   }
 }
 `

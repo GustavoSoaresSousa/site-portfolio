@@ -32,13 +32,13 @@ export function Footer(){
       <h1>Contato</h1>
       <div>
               <form onSubmit={sendEmail} id="form">
-                        <label for="">Seu Nome <span>*</span></label>
+                        <label>Seu Nome <span>*</span></label>
                         <input type="text" name="name" ></input>
-                        <label for="">Seu Email <span>*</span></label>
+                        <label>Seu Email <span>*</span></label>
                         <input type="email" name="email" ></input><span></span>
-                        <label for="">Assunto <span>*</span></label>
+                        <label>Assunto <span>*</span></label>
                         <input type="text" name="assunto" ></input>
-                        <label for="">Sua Mensagem <span>*</span></label>
+                        <label>Sua Mensagem <span>*</span></label>
                         <textarea name="message" ></textarea>
                         <input type="submit" value="Enviar a Mensagem"></input>
           </form>

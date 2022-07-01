@@ -35,8 +35,6 @@ export const MainContainer = styled.main`
       }
   }
   aside{
-
-
       img{
         height: 400px;
         width: 300px;
@@ -53,13 +51,14 @@ export const MainContainer = styled.main`
           }
         }
 }
+
     @media (max-width: 320px){
-        width: 320px;
+        width: 100%;
 
         aside{
           img{
             height: 150px;
-            width: 100px;
+            width: 50px;
           }
         }
       }
@@ -70,7 +69,7 @@ export const MainContainer = styled.main`
       aside{
           img{
             height: 250px;
-            width: 200px;
+            width: 150px;
           }
         }
     }
@@ -81,30 +80,20 @@ export const MainContainer = styled.main`
         aside{
             img{
               height: 250px;
-              width: 200px;
+              width: 150px;
             }
           }
     }
 
-    @media (max-width: 768px){
+    @media (min-width: 768px){
       width: 100%;
 
         aside{
             img{
-              height: 350px;
-              width: 300px;
+              height: 90%;
+              width: 95%;
             }
           }
     }
 
-    @media (max-width: 1024px){
-      width: 100%;
-
-        aside{
-            img{
-              height: 400px;
-              width: 350px;
-            }
-          }
-    }
 `

@@ -1,6 +1,5 @@
 import React from "react";
 import { AboutContainer } from '../../styles/AboutStyles';
-import Cv from '../../images/CurriculoDoGustavoSoaresDeDesenvolvedor.pdf';
 
 export function About(){
 
