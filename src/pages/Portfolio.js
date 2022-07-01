@@ -8,6 +8,9 @@ import { Footer } from "../components/Footer";
 
 
 export function Portfolio(){
+  fetch(process.env.REACT_APP_API_URL || 'http://localhost:8080/api/v1')
+  .then(() => console.log('Deu Certo'))
+  .then(() => console.log('Deu Erro'))
   return (
     <>
       <Header />
