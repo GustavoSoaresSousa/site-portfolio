@@ -10,7 +10,7 @@ export function Main(){
     <MainContainer id="home">
             <section>
               <div>
-                  <h2>Hello, I'm Gustavo Soares</h2>
+                  <h2>Olá, eu sou Gustavo Soares</h2>
                   <div className="resume">
                     Desenvolvedor de Software
                     </div>

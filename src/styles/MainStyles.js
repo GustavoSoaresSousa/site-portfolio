@@ -52,30 +52,33 @@ export const MainContainer = styled.main`
         }
 }
 
-    @media (max-width: 320px){
+    @media (min-width: 320px){
         width: 100%;
+        flex-direction: column;
 
         aside{
-          img{
-            height: 150px;
-            width: 50px;
-          }
-        }
-      }
-
-    @media (max-width: 375px){
-      width: 100%;
-
-      aside{
           img{
             height: 250px;
             width: 150px;
           }
         }
+      }
+
+    @media (min-width: 375px){
+      width: 100%;
+      flex-direction: column;
+
+      aside{
+          img{
+            height: 275px;
+            width: 175px;
+          }
+        }
     }
 
-    @media (max-width: 425px){
+    @media (min-width: 425px){
       width: 100%;
+      flex-direction: column;
 
         aside{
             img{
@@ -87,11 +90,12 @@ export const MainContainer = styled.main`
 
     @media (min-width: 768px){
       width: 100%;
+      flex-direction: row;
 
         aside{
             img{
-              height: 90%;
-              width: 95%;
+              height: 350px;
+              width: 250px;
             }
           }
     }

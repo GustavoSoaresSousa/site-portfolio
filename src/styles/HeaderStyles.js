@@ -41,10 +41,12 @@ export const HeaderStyles = styled.header`
     }
 
   }
-@media (max-width: 320px) {
+
+@media (min-width: 320px) {
     padding-left: 5px;
     width: 100%;
     font-size: 0.8em;
+    height: 75px;
     ul {
       width: 70%;
 
@@ -54,10 +56,10 @@ export const HeaderStyles = styled.header`
     }
 }
 
-@media (max-width: 375px){
+@media (min-width: 375px){
     padding-left: 20px;
     width: 100%;
-    font-size: 0.9em;
+    font-size: 0.95em;
 
     justify-content: space-around;
 
@@ -74,10 +76,10 @@ export const HeaderStyles = styled.header`
     }
 } 
 
-@media (max-width: 425px){
+@media (min-width: 425px){
     padding-left: 25px;
     width: 100%;
-    font-size: 1em;
+    font-size: 1.1em;
 
     justify-content: space-around;
 
@@ -93,7 +95,7 @@ export const HeaderStyles = styled.header`
       padding-right: 8px;
     }
 }
-@media (max-width: 768px){
+@media (min-width: 768px){
     padding-left: 25px;
     width: 100%;
     font-size: 1em;
@@ -113,7 +115,7 @@ export const HeaderStyles = styled.header`
     }
 }
 
-@media (max-width: 1024px){
+@media (min-width: 1024px){
     padding-left: 25px;
     width: 100%;
     font-size: 1.3em;

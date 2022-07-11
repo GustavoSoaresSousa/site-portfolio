@@ -40,11 +40,6 @@ export const ProjectsContainer = styled.div`
           transition: all 0.5s;
         }
 
-        img:hover {
-          height: 300px;
-          width: 100%;
-        }
-
         a{
           display: flex;
           justify-content: center;
@@ -68,8 +63,8 @@ export const ProjectsContainer = styled.div`
       }
 
       section:hover{
-        width: 450px;
-        height: 400px;
+        width: 430px;
+        height: 360px;
         box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
       }
 }
@@ -96,11 +91,11 @@ export const ProjectsContainer = styled.div`
 
     section {
         height: 290px;
-        width: 320px;
+        width: 310px;
 
         img{
           height: 200px;
-          width: 80%;
+          width: 90%;
         }
     }
   }
@@ -140,7 +135,17 @@ export const ProjectsContainer = styled.div`
 
 @media (min-width: 1024px){
   div{
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    section {
+          height: 330px;
+          width: 420px;
+
+        img{
+          height: 230px;
+          width: 90%;
+        }
+    }
   }
 }
 `
